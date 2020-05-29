@@ -1,0 +1,96 @@
+.container{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  height:100%;
+  width:100%;
+  background-color: white;
+}
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+.logo img {
+    width: 90px;
+    height: 88px;
+    background-color:white;
+    float:inline-start;
+    border: 1px solid black;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: 11%;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } 
+  .topnav input[type=text] {
+    float: right;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .sidenav {
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    border:1px solid black;
+    height: 500px;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.sidenav a {
+    padding: 4px 8px 6px 6px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border-bottom: white;
+}
+h5{
+  color: white;
+}
+.cars{
+  padding:16px 18px 16px 16px ;
+}
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
+  p{
+    position: absolute;
+    top: 650px;
+    bottom: 80px;
+    left: 1000px;
+    font-size: 50px;
+    color: black;
+}
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
